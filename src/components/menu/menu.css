@@ -1,0 +1,19 @@
+.global-menu {
+    display: flex;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(27, 27, 27, 0.25);
+    border-top-left-radius: 8;
+    border-top-right-radius: 8;
+    backdrop-filter: blur(4px);
+    flex-direction: row;
+    position: fixed;
+    top: 24px;
+    left: 24px;
+    z-index: 1000px;
+}

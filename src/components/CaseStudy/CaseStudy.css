@@ -1,0 +1,60 @@
+.h5-title-caseStudies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Clash Display';
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+.h5-description-caseStudies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    max-width: 1200px;
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.global-CaseStudy {
+    gap: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.global-CaseStudy:nth-child(odd) {
+    flex-direction: row;
+}
+
+.global-CaseStudy:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+
+.casestudy-img {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 445px;
+    max-height: 300px;
+    min-width: 225px;
+    height: auto;
+    object-fit: cover;
+}
+
+.h5-CaseStudy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 40px
+}

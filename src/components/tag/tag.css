@@ -1,0 +1,10 @@
+.global-tag {
+    display: flex;
+    gap: 6px;
+    padding: 2px 12px;
+    border-radius: 16px;
+    background-color: #1976D2;
+    font-family: 'Raleway';
+    font-size: 12px;
+    color: #ffffff;
+}

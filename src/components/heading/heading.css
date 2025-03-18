@@ -1,0 +1,106 @@
+.heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /* Garante que a imagem fique ao lado do texto */
+    gap: 20px;
+    padding: 80px 20px 20px 20px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.heading-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 600px;
+}
+
+.heading-text h1 {
+    color: white;
+    font-size: 64px;
+    font-family: 'Clash Display';
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.heading-text p {
+    color: white;
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 0.14px;
+    word-wrap: break-word;
+}
+
+.heading-background {
+    background-image: url('src/assets/background_page.png');
+    /* Caminho da imagem */
+    background-size: cover;
+    /* Faz a imagem cobrir todo o container */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Evita repetição */
+    width: 100vw;
+    /* Ocupa toda a largura da tela */
+    height: 60 vh;
+    /* Ocupa toda a altura da tela */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.profile-img {
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* 🔹 Responsividade */
+@media (max-width: 1024px) {
+    .heading-container {
+        flex-direction: row;
+        /* Mantém lado a lado até 1024px */
+    }
+
+    .heading-text h1 {
+        font-size: 48px;
+    }
+
+    .profile-img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading-container {
+        flex-direction: column;
+        /* Em telas menores, coloca a imagem abaixo */
+        align-items: center;
+        text-align: center;
+    }
+
+    .heading-text {
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .heading-text h1 {
+        font-size: 36px;
+    }
+
+    .heading-text p {
+        font-size: 12px;
+    }
+
+    .profile-img {
+        width: 150px;
+    }
+}

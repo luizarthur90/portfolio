@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: auto;
+  text-align: left;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  /* Mantém o menu e heading lado a lado */
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.app-components {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Estilo padrão (default) */
+.nav-link {
+  color: #ffffff;
+  /* Cor do texto */
+  text-decoration: none;
+  /* Remove o sublinhado */
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Efeito ao passar o mouse (hover) */
+.nav-link:hover {
+  color: #ffffff;
+  /* Altera a cor do texto */
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Adiciona um leve fundo */
+  text-decoration: underline;
+  /* Adiciona sublinhado */
+  cursor: pointer;
+  /* Muda o cursor para pointer */
+}
+
+/* Estado ativo (clicado) */
+.nav-link:active {
+  color: #ff5722;
+  /* Cor diferente para o clique */
+  transform: scale(0.95);
+  /* Dá um leve efeito de "pressionado" */
+  cursor: pointer;
+  /* Mantém pointer ao clicar */
+}
+
+/* 🔹 Responsividade */
+@media (max-width: 1024px) {
+  .app-container {
+    flex-direction: column;
+    /* Em telas menores, coloca os elementos um abaixo do outro */
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
