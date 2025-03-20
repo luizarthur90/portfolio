@@ -9,6 +9,7 @@ import Contact from './components/Contact/Contact';
 
 function App() {
   return (
+
     <div className=".app-components">
       <div className="app-container heading-background">
         <Menu />
