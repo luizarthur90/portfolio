@@ -45,8 +45,6 @@
   color: #ffffff;
   /* Altera a cor do texto */
   background-color: rgba(255, 255, 255, 0.1);
-  /* Adiciona um leve fundo */
-  text-decoration: underline;
   /* Adiciona sublinhado */
   cursor: pointer;
   /* Muda o cursor para pointer */

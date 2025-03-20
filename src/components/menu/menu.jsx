@@ -16,7 +16,7 @@ function Menu() {
                     <Link to="home" smooth={true} duration={500} className="nav-link">Home</Link>
                 </li>
                 <li>
-                    <Link to="case-studies" smooth={true} duration={500} className="nav-link">Case Studies</Link>
+                    <Link to="case-studies" smooth={true} duration={500} className="nav-link">Projects</Link>
                 </li>
                 <li>
                     <Link to="contact" smooth={true} duration={500} className="nav-link">Contact</Link>
