@@ -1,6 +1,6 @@
 import './Contact.css';
 import CustomButton from '../Button/CustomButton';
-import "public/1733155586653.jpg"
+import "/public/1733155586653.jpg"
 
 function Contact() {
     return (
