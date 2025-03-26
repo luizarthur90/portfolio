@@ -1,4 +1,4 @@
-.h5-title-caseStudies {
+.h4-title-caseStudies {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -7,11 +7,12 @@
     max-width: 1200px;
     margin: auto;
     font-family: 'Clash Display';
-    font-size: 23px;
+    font-size: 32px;
     color: #FFFFFF;
+    line-height: 40px;
 }
 
-.h5-description-caseStudies {
+.h4-description-caseStudies {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -19,16 +20,17 @@
     gap: 24px;
     max-width: 1200px;
     font-family: 'Raleway';
-    font-size: 14px;
+    font-size: 16px;
     color: #FFFFFF;
 }
 
 .global-CaseStudy {
-    gap: 12px;
+    gap: 64px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .global-CaseStudy:nth-child(odd) {
@@ -40,21 +42,37 @@
 }
 
 
-.casestudy-img {
+
+.container-casestudy {
     border-radius: 8px;
-    width: 100%;
     max-width: 445px;
     max-height: 300px;
     min-width: 225px;
     height: auto;
-    object-fit: cover;
+    overflow: hidden;
 }
 
-.h5-CaseStudy {
+.container-casestudy img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+
+
+}
+
+
+.container-casestudy:hover img {
+    transform: scale(1.1);
+}
+
+.h4-CaseStudy {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     align-content: flex-start;
-    gap: 40px
+    gap: 40px;
+    max-width: 375px;
+
 }

@@ -1,20 +1,27 @@
+h1 {
+    font-style: normal;
+    line-height: 64px;
+    /* 116.667% */
+    letter-spacing: 1.5px;
+    margin: auto;
+}
+
 .heading-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    /* Garante que a imagem fique ao lado do texto */
-    gap: 20px;
+    gap: 40px;
     padding: 80px 20px 20px 20px;
     max-width: 90%;
-    margin: auto;
+    margin: 80px;
 }
 
 .heading-text {
     display: flex;
     flex-direction: column;
     text-align: left;
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .heading-text h1 {
@@ -37,17 +44,10 @@
 
 .heading-background {
     background-image: url('src/assets/background_page.png');
-    /* Caminho da imagem */
-    background-size: cover;
-    /* Faz a imagem cobrir todo o container */
     background-position: center;
-    /* Centraliza a imagem */
     background-repeat: no-repeat;
-    /* Evita repetição */
     width: 100vw;
-    /* Ocupa toda a largura da tela */
     height: 60 vh;
-    /* Ocupa toda a altura da tela */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,6 +61,10 @@
     width: 250px;
     height: auto;
     object-fit: cover;
+}
+
+.h4-heading {
+    max-width: 600px
 }
 
 /* 🔹 Responsividade */

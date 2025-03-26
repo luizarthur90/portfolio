@@ -4,11 +4,10 @@ function Heading() {
     return (
         <div className="heading-container" id='home'>
             <div className="heading-text">
-                <h1>Hi, My name is Luiz Arthur</h1>
-                <p>
-                    Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+                <h1>Hi! I&apos;m Luiz Arthur, senior product designer based in Florianópolis, Brazil.</h1>
+                <h4 className='h4-heading'>
+                    I&apos;m passionate about creating intuitive and delightful user experiences.
+                </h4>
             </div>
             <div>
                 <img className="profile-img" src="src/assets/profile.svg" alt="Profile" />

@@ -4,14 +4,8 @@ import { Link } from "react-scroll";
 
 function Menu() {
     return (
-        <div className='global-menu'>
-            <ul style={{
-                display: 'flex',
-                flexDirection: 'row',
-                alignContent: 'flex-start',
-                justifyContent: 'flex-start',
-                gap: 24, listStyleType: 'none'
-            }}>
+        <header className='menu'>
+            <ul>
                 <li>
                     <Link to="home" smooth={true} duration={500} className="nav-link">Home</Link>
                 </li>
@@ -22,7 +16,7 @@ function Menu() {
                     <Link to="contact" smooth={true} duration={500} className="nav-link">Contact</Link>
                 </li>
             </ul>
-        </div>
+        </header >
     );
 }
 
