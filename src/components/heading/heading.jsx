@@ -1,5 +1,4 @@
 import './heading.css';
-import ProfileImg from "/public/Profile.svg"
 
 function Heading() {
     return (
@@ -11,7 +10,7 @@ function Heading() {
                 </h4>
             </div>
             <div>
-                <img className="profile-img" src={ProfileImg} alt="Profile" />
+                <img className="profile-img" src="src/assets/profile.svg" alt="Profile" />
             </div>
         </div >
     );

@@ -43,7 +43,11 @@ h1 {
 }
 
 .heading-background {
+<<<<<<< HEAD
     background-image: url('/portfolio/background_page.png');
+=======
+    background-image: url('portfolio/src/assets/background_page.png');
+>>>>>>> ee883437867f95b10192831d93f292b47101207f
     background-position: center;
     background-repeat: no-repeat;
     width: 100vw;
