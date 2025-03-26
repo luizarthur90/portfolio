@@ -1,5 +1,9 @@
 import CaseStudy from '../CaseStudy/CaseStudy';
 import './Section2.css';
+import '/portfolio/src/assets/Cover_SK.jpg'
+import '/portfolio/src/assets/Cover_Rostering.jpg'
+import '/portfolio/src/assets/Cover_Clic.png'
+import '/portfolio/src/assets/Cover_Vittude.svg'
 
 function Section2() {
 
