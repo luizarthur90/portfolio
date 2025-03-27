@@ -1,5 +1,5 @@
 import './heading.css';
-import ProfileImg from 'public/Profile.svg'
+import ProfileImg from '/public/Profile.svg'
 
 function Heading() {
     return (
