@@ -98,6 +98,7 @@ h1 {
 
     .heading-text h1 {
         font-size: 36px;
+        line-height: normal;
     }
 
     .heading-text p {

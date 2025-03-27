@@ -73,6 +73,19 @@
     align-items: flex-start;
     align-content: flex-start;
     gap: 40px;
-    max-width: 375px;
+    max-width: 445px;
 
+}
+
+/* 🔹 Responsividade */
+@media (max-width: 1024px) {
+
+    .global-CaseStudy:nth-child(odd),
+    .global-CaseStudy:nth-child(even) {
+        display: inline-flex;
+        flex-direction: column-reverse;
+        /* Em telas menores, coloca os elementos um abaixo do outro */
+        align-items: center;
+        gap: 16px;
+    }
 }
