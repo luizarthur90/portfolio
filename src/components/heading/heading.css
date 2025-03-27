@@ -43,7 +43,7 @@ h1 {
 }
 
 .heading-background {
-    background-image: url('public/background_page.png');
+    background-image: url('/public/background_page.png');
     background-position: center;
     background-repeat: no-repeat;
     width: 100vw;
